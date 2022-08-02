@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DepthPointCloud5",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine", 
+				"CinematicCamera", 
+				"UMG", 
+				"CoreUObject", 
+				"PointCloudKit"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PointCloudKit",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e09dc025b9c3496dbbf6c7ea6242ca7e"
+		},
+		{
+			"Name": "Composure",
+			"Enabled": true
+		}
+	]
+}
